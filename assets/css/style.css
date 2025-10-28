@@ -1,0 +1,89 @@
+/*  ---------------Box Sizing-----------------  */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+/* ------ Utillity classes ------ */
+
+/* ------ Global Style ------ */
+body{
+   background-color: #ffffff;
+   font-family: "Petit Formal Script", cursive;
+   margin:0;
+   line-height: 1.6;
+}
+
+.container {
+  background-color: #ffffff
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* ------ Header Background Cover ------ */
+header.primary {
+  background-image: url("https://i.pinimg.com/736x/c0/94/66/c0946670025bc2894f921447041f5bcb.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #e87bad;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* ------ Make the print readable on cover ------ */
+header.primary h1, header.primary h2 {
+  background-color:#ffffff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 20px;
+  max-width:100%;
+}
+img:hover {
+  transform: scale(1.05);
+  transform: 0.5 ease;
+}
+/*make my links pink */
+a {
+  color: #e87bad;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/*Footer*/
+footer.primary-footer{
+  text-align: center;
+  padding 20px;
+  font-size: 1.05rem;
+  color: #e87bad;
+  background-color: #ffffff;
+  position: relative;
+}
+
+/*not gonna lie i asked chat for help bc i could not get this border to work for the life of me*/
+footer.primary-footer::after{
+  content:"";
+  display: block;
+  height: 60px; 
+  background-image: url("https://i.pinimg.com/736x/c0/94/66/c0946670025bc2894f921447041f5bcb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px; 
+  border-radius: 10px;
+}
