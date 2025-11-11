@@ -1,0 +1,15 @@
+#navy, #teal, #blue, #aqua {
+  width: 370px;
+  height: 150px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#footer{
+  clear: both;
+  margin: 20px;
+}
+
+/*when working on this lab, i didnt quite grasp a good understanding of the margin function...need to study more on that....also the clear: both */

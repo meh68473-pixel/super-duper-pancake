@@ -1,0 +1,47 @@
+#wrapper{
+  position:relative;
+  height:800px;
+}
+/*selects just the white...box ig*/
+#wrapper div {
+  width:125px;
+  height:125px;
+}
+/*selects all boxes*/
+
+#navy{
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+#teal{
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+#blue{
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+
+#aqua{
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+
+#footer{
+  position:absolute; 
+  top:50%;
+  left:50%;
+  margin-top:-62.5px;
+  margin-left:-62.5px;
+}
+
+/*you would have to know the exact dimention of the box to know the height / width...so what we did was 125/2 which is how we knew the top and bottom mrgin*/
+
+/*if you were to want the box to be center without knowing the dimention ... I think youb could add this:   transform: translate(-50%, -50%);
+ */

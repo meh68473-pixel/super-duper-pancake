@@ -1,0 +1,15 @@
+#navy, #teal, #blue, #aqua {
+  width: 175px;
+  height: 150px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#footer{
+  clear: both;
+  margin: 20px;
+}
+
+/*The thing about this one was dimitions of the boxes/height and width. with changing the simple numbers, changed the whole positions of the boxes....im about to kill myself...that was so simple yet it took me 3 days .... jumping soon */
