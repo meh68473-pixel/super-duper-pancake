@@ -85,13 +85,11 @@ header.primary h1 {
 
 /* title*/
 header.primary a {
-  font-family: ;
   color: #590902;
   text-decoration: none;
 }
 
 header.primary h2 {
-  font-family: ;
   font-size: 2em;
   margin: 20px auto 40px;
   position: relative;
@@ -116,7 +114,6 @@ header.primary nav li {
 /*buttons*/
 header.primary nav a:link,
 header.primary nav a:visited {
-  font-family: ;
   color: white;
   text-decoration: none;
   background-color: #590902;
@@ -423,7 +420,7 @@ border-radius: 10px;
 .timeline ol li:nth-child(even) div::before {
   top: -8px;
   border-width: 8px 0 0 8px;
-  border-color: transparent transparent transparent #ffffff);
+  border-color: transparent transparent transparent #ffffff;
 }
 
 /* Timeline dates styling */
@@ -454,42 +451,6 @@ border-radius: 10px;
     display: none;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* FOOTER */
 footer#colophon {
